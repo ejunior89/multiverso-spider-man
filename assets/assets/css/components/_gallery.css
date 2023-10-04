@@ -1,0 +1,29 @@
+.gallery {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  position: relative;
+}
+
+.gallery ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery ul li{
+  margin-left: 25px;
+}
+
+.gallery ul li:first-child{
+  margin-left: 40px;
+}
+
+.gallery ul li a img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
